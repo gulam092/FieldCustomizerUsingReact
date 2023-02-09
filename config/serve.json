@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://3bb1fs.sharepoint.com/sites/technohub/Lists/ProjectStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "e61476ce-ebe3-4b8f-b9db-ba0a22b8bebe",
+          "properties": {
+            "sampleText": " "
+          }
+        }
+      }
+    },
+    "fecDemo": {
+      "pageUrl": "https://3bb1fs.sharepoint.com/sites/technohub/Lists/ProjectStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "e61476ce-ebe3-4b8f-b9db-ba0a22b8bebe",
+          "properties": {
+            "sampleText": " "
+          }
+        }
+      }
+    }
+  }
+}
